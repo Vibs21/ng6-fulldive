@@ -1,5 +1,7 @@
 import { Directive, Input, TemplateRef, ViewContainerRef } from '@angular/core';
 
+// this directive is the replacement of the *ngIf
+
 @Directive({
   selector: '[appUnless]'
 })
